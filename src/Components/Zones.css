@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main-container {
+  min-height: 100%;
+  transition: all 0.4s ease 0s;
+  margin-top: 150px;
+  width: 82%;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.header h3 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  line-height: 25px;
+  font-size: 25px;
+  align-items: flex-end;
+  letter-spacing: 1px;
+  color: #20509a;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.header {
+  margin-bottom: 1rem;
+}
+/* .header h3 {
+ padding: 8px;
+  font-family: 'Open Sans'; */
+
+
+/* .icons {
+  display: flex;
+  width: 75px;
+  position: absolute;
+  right: 16px;
+  top: 115px;
+
+} */
+
+/* .fa-plus-square {
+  display: inline-block;
+ color: #5cb85c;
+ border-color: #4cae4c;
+ padding: 6px 12px;
+  width: 14px;
+  height: 14px;
+
+}
+
+.fa-sync-alt {
+  position: absolute;
+  top: -12px;
+  right: 9px;
+  border-color: #ccc;
+  color: #333;
+  width: 14px;
+  height: 14px;
+  padding: 20px;
+
+} */
+
+
+
+
+
+
+
+.menu {
+ 
+  list-style-type: none;
+ 
+}
+
+
+
+
+/* ul.menu {
+  display: table;
+  width: 100%;
+  text-align: center;
+
+}
+
+ul.menu > li {
+  display: table-cell;
+} */
+
+

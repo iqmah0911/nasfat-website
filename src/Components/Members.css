@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main-container {
+  min-height: 100%;
+  transition: all 0.4s ease 0s;
+  margin-top: 150px;
+  width: 82%;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.header h3 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  line-height: 25px;
+  font-size: 25px;
+  align-items: flex-end;
+  letter-spacing: 1px;
+  color: #20509a;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  margin-bottom: 1rem;
+}
+
+.fas {
+    display: inline-block;
+    
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    /* -ms-touch-action: manipulation; */
+    /* touch-action: manipulation; */
+    cursor: pointer;
+    /* -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; */
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+   
+}
+
+.fa-plus {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    padding: 6px 12px;
+}
+
+.fa-sync-alt {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    padding: 6px 12px;
+}
+.main-table {
+  
+     border-radius: 10px;
+    background-color: transparent;
+    border-spacing:0 ;
+    border-collapse: collapse;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 17px;
+    /* font-weight: bold; */
+    letter-spacing: 1px;
+    color: #20589A;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+  min-height: .01%;
+overflow-x: auto;
+    
+    
+
+}
+
+.table-header {
+ height: 60px;
+  border-radius: 10px;
+  background: #1A7EBD;
+  border-radius: 5px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 18px;
+
+  color: #fff;
+}
+
+tbody>tr {
+   border-bottom: 1px solid #c4c4c4;
+}
+
+tr:nth-of-type(odd){
+background-color: #f9f9f9;
+}
+/* thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+} */
+/* .main-table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ccc;
+}
+
+.main-table>tbody>tr {
+    background-color: #f9f9f9;
+
+}
+
+.main-table>tbody>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ccc;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+} */
+
+.fa-edit {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.fa-search {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+    transform: translate(0, 0);
+}
+
+
+
+  .icon {
+        
+        width: 30px;
+        height: 30px;
+        padding: 6px 0;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.428571429;
+        color: #fff;
+       background-color: #d9534f;
+        border-color: #d43f3a;
+}
+  
+
+/* .icons {
+  display: flex;
+  width: 75px;
+  position: absolute;
+  right: 16px;
+  top: 115px;
+
+} */
+
+/* .fa-plus-square {
+  display: inline-block;
+ color: #5cb85c;
+ border-color: #4cae4c;
+ padding: 6px 12px;
+  width: 14px;
+  height: 14px;
+
+}
+
+.fa-sync-alt {
+  position: absolute;
+  top: -12px;
+  right: 9px;
+  border-color: #ccc;
+  color: #333;
+  width: 14px;
+  height: 14px;
+  padding: 20px;
+
+} */
+
+
+
+
+
+
+
+.menu {
+ 
+  list-style-type: none;
+ 
+}
+
+
+
+
+/* ul.menu {
+  display: table;
+  width: 100%;
+  text-align: center;
+
+}
+
+ul.menu > li {
+  display: table-cell;
+} */
+
+
+@media screen and (max-width: 770px) {
+  /* .side-left{
+      display: none;
+  } */
+
+  /* .main-table {
+    width: 100%;
+    margin: 10px 40px 10px 0;
+    flex-direction: column;
+  } */
+
+
+}
